@@ -19,12 +19,8 @@ for (i = 0 ; i <= 9 ; i++)
 				putchar(',');
 				putchar(' ');
 			}
-			else
-				if (i == 8 || j == 9)
-				{
-					putchar(' ');
-				}
-		}
+			putchar('\n');
+}
 }
 return (0);
 
