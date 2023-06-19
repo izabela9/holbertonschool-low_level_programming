@@ -19,6 +19,11 @@ for (i = 0 ; i <= 9 ; i++)
 				putchar(',');
 				putchar(' ');
 			}
+			else
+				if (i == 8 || j == 9)
+				{
+					putchar(' ');
+				}
 		}
 }
 return (0);
