@@ -25,11 +25,11 @@ Here are some key basics of C programming:
 
 Some of the basics we have in this project are :
 
-1. How to make our first 'Hello World'
-2. C variables if, else, while
-3. Functions and nested loops
-4. Makefiles
-5. Pointers, Arrays and Strings
+* How to make our first 'Hello World'
+* C variables if, else, while
+* Functions and nested loops
+* Makefiles
+* Pointers, Arrays and Strings
 
 We check our code with betty-style using betty < filename >. 
 We will see each of the topics in each document more closely.
