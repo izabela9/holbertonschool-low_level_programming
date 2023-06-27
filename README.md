@@ -31,5 +31,5 @@ Some of the basics we have in this project are :
 4. Makefiles
 5. Pointers, Arrays and Strings
 
-We check our code with betty-style using betty << filename >>. 
+We check our code with betty-style using betty < filename >. 
 We will see each of the topics in each document more closely.
