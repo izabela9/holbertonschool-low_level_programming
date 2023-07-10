@@ -10,7 +10,7 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	char *concat_n;
+	char *concat;
 	size_t len1 = strlen(s1);
 	size_t len2 = strlen(s2);
 
@@ -22,10 +22,10 @@ char *str_concat(char *s1, char *s2)
 	{
 		s2 = "";
 	}
-	concat_n = malloc(len1 + len2 + 1);
-	if (concat_n == NULL)
+	concat = malloc(len1 + len2 + 1);
+	if (concat == NULL)
 		return (NULL);
-	strcpy(concat_n, s1);
-	strcat(concat_n, s2);
-	return (concat_n);
+	strcpy(concat, s1);
+	strcat(concat, s2);
+	return (concat);
 }
