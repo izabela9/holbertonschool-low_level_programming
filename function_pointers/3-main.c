@@ -2,8 +2,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-
-int main (int argc, char *argv[])
+/**
+ * main - check the code
+ * @argc: arguments count
+ * @argv: argument list
+ * Return: Always 0
+ */
+int main (int argc, char **argv)
 {
         if (argc != 4)
         {
