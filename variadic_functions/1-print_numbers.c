@@ -2,7 +2,7 @@
 #include <stdarg.h>
 /**
  * print_numbers - function that print numbers
- * @seperator: string to be printed between numbers
+ * @separator: string to be printed between numbers
  * @n: number of parameters
  * Return: sum of all parameters
  */
