@@ -5,8 +5,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include "main.h"
-/*
- * create_file - function that creates a txt file
+/**
+ * create_file - function that creates a text file
  * @filename: name of the file
  * @text_content: text content
  * Return: 1 on success, -1 on failure
