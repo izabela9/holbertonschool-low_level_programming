@@ -6,7 +6,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 /**
- * read_textfile - function that reads a text file and 
+ * read_textfile - function that reads a text file and
  * prints it to the standard output
  * @filename: text file to read
  * @letters: number of letters to read
@@ -28,7 +28,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (c == -1 || c != n)
 	{
 		close(fd);
-		return(0);
+		return (0);
 	}
 	close(fd);
 	return (c);
