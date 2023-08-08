@@ -14,7 +14,7 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	char *buf;
-	int fd;
+	int fd1;
 	ssize_t n;
 	ssize_t c;
 
@@ -22,14 +22,14 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (filename == NULL)
 		return (0);
 
-	fd = open(filename, O_RDONLY);
-	n = read(fd, buf, letters);
+	fd1 = open(filename, O_RDONLY);
+	n = read(fd1, buf, letters);
 	c = write(STDOUT_FILENO, buf, n);
 	if (c == -1 || c != n)
 	{
-		close(fd);
+		close(fd1);
 		return (0);
 	}
-	close(fd);
+	close(fd1);
 	return (n);
 }
